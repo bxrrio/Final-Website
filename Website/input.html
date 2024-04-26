@@ -1,0 +1,41 @@
+<!--Brandy Bencomo-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title of webpage-->
+    <title>Input Validatation</title>
+    <!--links to css and script-->
+    <link rel="stylesheet" href="input.css">
+    <script src="input.js"></script>
+</head>
+<body>
+    <nav>
+        <!--link to other webpages-->
+       <a href="index.html">Index</a>
+       <a href="game.html">Game</a>
+       <a href="strings.html">Palidrome</a>
+       <a href="boards.html">Objectives</a>
+       <a href="table.html">Table</a>
+       <a href="home.html">Home</a>
+   </nav>
+
+    <!--song for background music-->
+    <audio id="song">
+        <source src="Yestalgia - Sparkles.mp3">
+    </audio>
+
+    <!--text box layout to allow the user to enter information-->
+    <div class="container">
+    <h2>Enter information below to reveal a secret message!</h2>
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <input type="text" id="zipCode" placeholder="Zip Code">
+        <button onclick="validateInputs()">Submit</button>
+        <!--after entering information the message and image will display-->
+        <p id="message" style="display:none;">Here is the secret message: You are loved and appreciated!
+            <image src="2764.png" style="max-height: 400px;"></image>
+        </p>
+    </div>
+</body>

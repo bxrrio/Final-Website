@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1{
+    color: #333333;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}

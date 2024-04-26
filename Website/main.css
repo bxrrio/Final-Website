@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(225, 172, 183);
+    color:maroon;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    height: 6000px;
+    width: 180px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+#memeImage {
+    border: 5px solid;
+    border-color: maroon;
+    margin-right: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
